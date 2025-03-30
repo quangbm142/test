@@ -1,0 +1,33 @@
+[0m22:55:00.675782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4A1659010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C49F7D47D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4A228E5D0>]}
+
+
+============================== 22:55:00.692846 | a74c4824-3e56-49e2-b039-707ec697761e ==============================
+[0m22:55:00.692846 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:55:00.693326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init demo_dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:55:00.704822 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Lenovo/.dbt')}
+[0m22:55:00.705356 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m22:55:00.706733 [debug] [MainThread]: Starter project path: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m22:55:00.721872 [info ] [MainThread]: 
+Your new dbt project "demo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:55:00.722441 [info ] [MainThread]: Setting up your profile.
+[0m22:55:00.723121 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m22:55:00.723676 [debug] [MainThread]: Command `dbt init` failed at 22:55:00.723591 after 0.13 seconds
+[0m22:55:00.723896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4A27769E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4A27F5A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4A266DD00>]}
+[0m22:55:00.724144 [debug] [MainThread]: Flushing usage events
+[0m22:55:01.797620 [debug] [MainThread]: An error was encountered while trying to flush usage events
